@@ -14,7 +14,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_arrow_back"
         app:title="@string/app_name"
-        app:titleTextColor="@color/colorWhite" />
+        app:titleTextColor="@color/colorWhite"
+
+        />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
