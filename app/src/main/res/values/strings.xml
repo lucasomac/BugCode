@@ -28,4 +28,5 @@
     <string name="tilValor">Valor</string>
     <string name="btnCadastrarGasto">Cadastrar</string>
     <string name="ajuda">AJUDA</string>
+    <string name="profile">Profile</string>
 </resources>

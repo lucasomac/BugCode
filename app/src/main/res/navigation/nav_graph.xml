@@ -7,8 +7,8 @@
     <fragment
         android:id="@+id/fragmentProfile3"
         android:name="br.com.lucolimac.mywallet.ui.FragmentProfile"
-        android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" >
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
         <action
             android:id="@+id/action_fragmentProfile3_to_fragmentAjuda2"
             app:destination="@id/fragmentAjuda2" />
@@ -16,6 +16,6 @@
     <fragment
         android:id="@+id/fragmentAjuda2"
         android:name="br.com.lucolimac.mywallet.ui.FragmentAjuda"
-        android:label="fragment_ajuda"
+        android:label="@string/ajuda"
         tools:layout="@layout/fragment_ajuda" />
 </navigation>

@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".ui.ProfileActivity">
 
+    <include
+        layout="@layout/login_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/profileToolbar"
         android:layout_width="match_parent"
@@ -14,15 +19,16 @@
         android:background="@color/colorAccent"
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_arrow_back"
-        app:title="@string/app_name"
         app:titleTextColor="@color/colorWhite" />
 
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/navHostfragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:defaultNavHost="true"
-        app:navGraph="@navigation/nav_graph" />
+        app:navGraph="@navigation/nav_graph">
+
+    </fragment>
 
 </LinearLayout>
