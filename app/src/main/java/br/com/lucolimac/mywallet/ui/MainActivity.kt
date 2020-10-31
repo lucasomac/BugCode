@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat
 import br.com.lucolimac.mywallet.R
 import br.com.lucolimac.mywallet.`interface`.ContractMainActivity
 import br.com.lucolimac.mywallet.domain.Usuario
+import br.com.lucolimac.mywallet.ui.detailsgastos.DetailGastosFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.tab_entrada.*
 import kotlinx.android.synthetic.main.tab_gastos.*

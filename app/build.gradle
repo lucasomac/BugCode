@@ -3,10 +3,10 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.example.snackbar"
+        applicationId "br.com.lucolimac.mywallet"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -29,7 +29,7 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
-    buildToolsVersion '29.0.3'
+    buildToolsVersion '30.0.2'
 }
 
 dependencies {
@@ -41,6 +41,8 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.1'
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.cardview:cardview:1.0.0"
     implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
